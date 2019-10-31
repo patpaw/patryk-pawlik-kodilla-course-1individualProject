@@ -12,6 +12,8 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class Checkers extends Application {
 
     private Image imageback = new Image("checkersBoard.png");
@@ -30,18 +32,43 @@ public class Checkers extends Application {
         Background background = new Background(backgroundImage);
 
         GridPane grid = new GridPane();
-        grid.setAlignment(Pos.CENTER_LEFT);
+//        for(int i = 0; i < 8; i++) {
+//            for(int j = 0; j < 8; j++) {
+//                grid.add(pawns, 0,0);
+//
+//            }
+//        }
+
+
+        grid.setAlignment(Pos.CENTER);
         grid.setPadding(new Insets(11.5,12.5,13.5,14.5));
         grid.setHgap(5.5);
         grid.setVgap(5.5);
         grid.setBackground(background);
 
-        ImageView imgPawnGreen = new ImageView(pawnGreen);
+        ImageView imgPawnGreen0 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen1 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen2 = new ImageView(pawnGreen);
         ImageView imgPawnRed = new ImageView(pawnRed);
-        pawns.getChildren().add(imgPawnGreen);
+        pawns.getChildren().add(imgPawnGreen0);
+        pawns.getChildren().add(imgPawnGreen1);
+        pawns.getChildren().add(imgPawnGreen2);
         pawns.getChildren().add(imgPawnRed);
+        imgPawnGreen0.setX(1500);
+        imgPawnGreen0.setY(1100);
 
-        grid.add(pawns, 0, 0, 3,1);
+        imgPawnGreen0.setFitHeight(100);
+        imgPawnGreen0.setFitWidth(100);
+        imgPawnGreen1.setFitHeight(100);
+        imgPawnGreen1.setFitWidth(100);
+        imgPawnGreen2.setFitHeight(100);
+        imgPawnGreen2.setFitWidth(100);
+        imgPawnRed.setFitHeight(100);
+        imgPawnRed.setFitWidth(100);
+
+
+
+        grid.getChildren().addAll(imgPawnGreen0, imgPawnGreen1, imgPawnGreen2, imgPawnRed);
 
         Scene scene = new Scene(grid, 1200, 900, Color.BLACK);
 
