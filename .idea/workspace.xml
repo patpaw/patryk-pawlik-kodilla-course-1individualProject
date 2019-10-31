@@ -136,7 +136,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kodilla-course" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -257,6 +257,7 @@
       <workItem from="1572505243339" duration="6403000" />
       <workItem from="1572514362139" duration="83000" />
       <workItem from="1572514594051" duration="99000" />
+      <workItem from="1572515452896" duration="91000" />
     </task>
     <servers />
   </component>
