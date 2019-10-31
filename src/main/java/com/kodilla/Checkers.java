@@ -5,6 +5,7 @@ import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
+import javafx.geometry.VPos;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -40,8 +41,8 @@ public class Checkers extends Application {
 //        }
 
 
-        grid.setAlignment(Pos.CENTER);
-        grid.setPadding(new Insets(11.5,12.5,13.5,14.5));
+        grid.setAlignment(Pos.CENTER_LEFT);
+        grid.setPadding(new Insets(11.5,12.5,13.5,134.5));
         grid.setHgap(5.5);
         grid.setVgap(5.5);
         grid.setBackground(background);
@@ -68,7 +69,20 @@ public class Checkers extends Application {
 
 
 
-        grid.getChildren().addAll(imgPawnGreen0, imgPawnGreen1, imgPawnGreen2, imgPawnRed);
+//        grid.getChildren().addAll(imgPawnGreen0, imgPawnGreen1, imgPawnGreen2, imgPawnRed);
+
+        grid.addColumn(0,imgPawnGreen0, imgPawnGreen1, imgPawnGreen2);
+        grid.addRow(0,imgPawnRed);
+        grid.setGridLinesVisible(true);
+
+        ColumnConstraints column0 = new ColumnConstraints(100);
+        column0.setMaxWidth(100);
+        grid.getColumnConstraints().add(column0);
+
+        RowConstraints row0 = new RowConstraints(100);
+        row0.setMaxHeight(100);
+        row0.setValignment(VPos.BASELINE);
+        grid.getRowConstraints().add(row0);
 
         Scene scene = new Scene(grid, 1200, 900, Color.BLACK);
 
