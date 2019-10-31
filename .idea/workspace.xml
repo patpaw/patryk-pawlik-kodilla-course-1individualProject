@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db89eaa6-3d74-4b20-84a1-46eb5c09731b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kodilla-exception/src/main/java/com/kodilla/exception/test/ApplicationFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kodilla-exception/src/main/java/com/kodilla/exception/test/FindYourFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kodilla-exception/src/main/java/com/kodilla/exception/test/FindYourFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Patryk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/Checkers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/FXtesty/FxScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pawnGreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pawnRed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/BlackJack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/Warcaby.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/board/BoardRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/board/BoardRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/board/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/board/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/board/FigureColours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/board/FigureColours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/board/None.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/board/None.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/board/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/board/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/circleGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/circleRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/kolobraz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/koloszare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/table" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/warcaby.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/checkersBoard.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +48,40 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SspW7Z2Y212J2t6fkoiZfjumW8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\myFirstProject\src\main\java\com\kodilla\board\blackjava" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.board" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,6 +95,82 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.Checkers">
+    <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.BlackJack" />
+      <module name="first-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Blackjack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.Blackjack" />
+      <module name="first-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Checkers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.Checkers" />
+      <module name="first-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FxScene" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.FXtesty.FxScene" />
+      <module name="first-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.FXtesty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Warcaby" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.Warcaby" />
+      <module name="first-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FxScene" />
+        <item itemvalue="Application.Checkers" />
+        <item itemvalue="Application.Warcaby" />
+        <item itemvalue="Application.Blackjack" />
+        <item itemvalue="Application.BlackJack" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -48,8 +181,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572362185631</updated>
-      <workItem from="1572362188420" duration="14000" />
+      <workItem from="1572362188420" duration="440000" />
+      <workItem from="1572420042689" duration="3769000" />
+      <workItem from="1572430922095" duration="2269000" />
+      <workItem from="1572453771484" duration="120000" />
+      <workItem from="1572454695551" duration="6529000" />
+      <workItem from="1572505243339" duration="6403000" />
+      <workItem from="1572514362139" duration="83000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
