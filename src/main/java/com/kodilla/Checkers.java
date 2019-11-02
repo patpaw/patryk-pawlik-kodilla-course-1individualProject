@@ -1,11 +1,10 @@
 package com.kodilla;
 
 import com.kodilla.board.Board;
+import com.kodilla.board.Pawn;
+import com.sun.rowset.internal.Row;
 import javafx.application.Application;
-import javafx.geometry.Insets;
-import javafx.geometry.Orientation;
-import javafx.geometry.Pos;
-import javafx.geometry.VPos;
+import javafx.geometry.*;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -14,6 +13,8 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Checkers extends Application {
 
@@ -42,47 +43,177 @@ public class Checkers extends Application {
 
 
         grid.setAlignment(Pos.CENTER_LEFT);
-        grid.setPadding(new Insets(11.5,12.5,13.5,134.5));
-        grid.setHgap(5.5);
-        grid.setVgap(5.5);
+        grid.setPadding(new Insets(22, 12.5, 10.5, 182));
+        grid.setHgap(0.5);
+        grid.setVgap(0.5);
         grid.setBackground(background);
+
+
 
         ImageView imgPawnGreen0 = new ImageView(pawnGreen);
         ImageView imgPawnGreen1 = new ImageView(pawnGreen);
         ImageView imgPawnGreen2 = new ImageView(pawnGreen);
-        ImageView imgPawnRed = new ImageView(pawnRed);
+        ImageView imgPawnGreen3 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen4 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen5 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen6 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen7 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen8 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen9 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen10 = new ImageView(pawnGreen);
+        ImageView imgPawnGreen11 = new ImageView(pawnGreen);
+
+        ImageView imgPawnRed0 = new ImageView(pawnRed);
+        ImageView imgPawnRed1 = new ImageView(pawnRed);
+        ImageView imgPawnRed2 = new ImageView(pawnRed);
+        ImageView imgPawnRed3 = new ImageView(pawnRed);
+        ImageView imgPawnRed4 = new ImageView(pawnRed);
+        ImageView imgPawnRed5 = new ImageView(pawnRed);
+        ImageView imgPawnRed6 = new ImageView(pawnRed);
+        ImageView imgPawnRed7 = new ImageView(pawnRed);
+        ImageView imgPawnRed8 = new ImageView(pawnRed);
+        ImageView imgPawnRed9 = new ImageView(pawnRed);
+        ImageView imgPawnRed10 = new ImageView(pawnRed);
+        ImageView imgPawnRed11 = new ImageView(pawnRed);
+
+
         pawns.getChildren().add(imgPawnGreen0);
         pawns.getChildren().add(imgPawnGreen1);
-        pawns.getChildren().add(imgPawnGreen2);
-        pawns.getChildren().add(imgPawnRed);
-        imgPawnGreen0.setX(1500);
-        imgPawnGreen0.setY(1100);
+        pawns.getChildren().add(imgPawnGreen3);
+        pawns.getChildren().add(imgPawnGreen4);
+        pawns.getChildren().add(imgPawnGreen5);
+        pawns.getChildren().add(imgPawnGreen6);
+        pawns.getChildren().add(imgPawnGreen7);
+        pawns.getChildren().add(imgPawnGreen8);
+        pawns.getChildren().add(imgPawnGreen9);
+        pawns.getChildren().add(imgPawnGreen10);
+        pawns.getChildren().add(imgPawnGreen11);
 
-        imgPawnGreen0.setFitHeight(100);
-        imgPawnGreen0.setFitWidth(100);
-        imgPawnGreen1.setFitHeight(100);
-        imgPawnGreen1.setFitWidth(100);
-        imgPawnGreen2.setFitHeight(100);
-        imgPawnGreen2.setFitWidth(100);
-        imgPawnRed.setFitHeight(100);
-        imgPawnRed.setFitWidth(100);
+        pawns.getChildren().add(imgPawnRed0);
+        pawns.getChildren().add(imgPawnRed1);
+        pawns.getChildren().add(imgPawnRed2);
+        pawns.getChildren().add(imgPawnRed3);
+        pawns.getChildren().add(imgPawnRed4);
+        pawns.getChildren().add(imgPawnRed5);
+        pawns.getChildren().add(imgPawnRed6);
+        pawns.getChildren().add(imgPawnRed7);
+        pawns.getChildren().add(imgPawnRed8);
+        pawns.getChildren().add(imgPawnRed9);
+        pawns.getChildren().add(imgPawnRed10);
+        pawns.getChildren().add(imgPawnRed11);
 
 
+        imgPawnGreen0.setFitHeight(90);
+        imgPawnGreen0.setFitWidth(90);
+        imgPawnGreen1.setFitHeight(90);
+        imgPawnGreen1.setFitWidth(90);
+        imgPawnGreen2.setFitHeight(90);
+        imgPawnGreen2.setFitWidth(90);
+        imgPawnGreen3.setFitHeight(90);
+        imgPawnGreen3.setFitWidth(90);
+        imgPawnGreen4.setFitHeight(90);
+        imgPawnGreen4.setFitWidth(90);
+        imgPawnGreen5.setFitHeight(90);
+        imgPawnGreen5.setFitWidth(90);
+        imgPawnGreen6.setFitHeight(90);
+        imgPawnGreen6.setFitWidth(90);
+        imgPawnGreen7.setFitHeight(90);
+        imgPawnGreen7.setFitWidth(90);
+        imgPawnGreen8.setFitHeight(90);
+        imgPawnGreen8.setFitWidth(90);
+        imgPawnGreen9.setFitHeight(90);
+        imgPawnGreen9.setFitWidth(90);
+        imgPawnGreen10.setFitHeight(90);
+        imgPawnGreen10.setFitWidth(90);
+        imgPawnGreen11.setFitHeight(90);
+        imgPawnGreen11.setFitWidth(90);
 
-//        grid.getChildren().addAll(imgPawnGreen0, imgPawnGreen1, imgPawnGreen2, imgPawnRed);
+        imgPawnRed0.setFitHeight(90);
+        imgPawnRed0.setFitWidth(90);
+        imgPawnRed1.setFitHeight(90);
+        imgPawnRed1.setFitWidth(90);
+        imgPawnRed2.setFitHeight(90);
+        imgPawnRed2.setFitWidth(90);
+        imgPawnRed3.setFitHeight(90);
+        imgPawnRed3.setFitWidth(90);
+        imgPawnRed4.setFitHeight(90);
+        imgPawnRed4.setFitWidth(90);
+        imgPawnRed5.setFitHeight(90);
+        imgPawnRed5.setFitWidth(90);
+        imgPawnRed6.setFitHeight(90);
+        imgPawnRed6.setFitWidth(90);
+        imgPawnRed7.setFitHeight(90);
+        imgPawnRed7.setFitWidth(90);
+        imgPawnRed8.setFitHeight(90);
+        imgPawnRed8.setFitWidth(90);
+        imgPawnRed9.setFitHeight(90);
+        imgPawnRed9.setFitWidth(90);
+        imgPawnRed10.setFitHeight(90);
+        imgPawnRed10.setFitWidth(90);
+        imgPawnRed11.setFitHeight(90);
+        imgPawnRed11.setFitWidth(90);
 
-        grid.addColumn(0,imgPawnGreen0, imgPawnGreen1, imgPawnGreen2);
-        grid.addRow(0,imgPawnRed);
+
+        grid.getChildren().addAll(imgPawnGreen0, imgPawnGreen1, imgPawnGreen2, imgPawnRed0);
+  //      grid.add(imgPawnGreen0,1,1);
+
+
         grid.setGridLinesVisible(true);
 
-        ColumnConstraints column0 = new ColumnConstraints(100);
-        column0.setMaxWidth(100);
-        grid.getColumnConstraints().add(column0);
+        grid.getColumnConstraints().add(new ColumnConstraints(104));
+        grid.getColumnConstraints().add(new ColumnConstraints(104));
+        grid.getColumnConstraints().add(new ColumnConstraints(103));
+        grid.getColumnConstraints().add(new ColumnConstraints(103));
+        grid.getColumnConstraints().add(new ColumnConstraints(104));
+        grid.getColumnConstraints().add(new ColumnConstraints(103));
+        grid.getColumnConstraints().add(new ColumnConstraints(104));
+        grid.getColumnConstraints().add(new ColumnConstraints(104));
 
-        RowConstraints row0 = new RowConstraints(100);
-        row0.setMaxHeight(100);
-        row0.setValignment(VPos.BASELINE);
-        grid.getRowConstraints().add(row0);
+        grid.getRowConstraints().add(new RowConstraints(104));
+        grid.getRowConstraints().add(new RowConstraints(103));
+        grid.getRowConstraints().add(new RowConstraints(103));
+        grid.getRowConstraints().add(new RowConstraints(103));
+        grid.getRowConstraints().add(new RowConstraints(103));
+        grid.getRowConstraints().add(new RowConstraints(104));
+        grid.getRowConstraints().add(new RowConstraints(104));
+        grid.getRowConstraints().add(new RowConstraints(105));
+
+//        ColumnConstraints column0 = new ColumnConstraints(110);
+//        column0.setHalignment(HPos.LEFT);
+//        grid.getColumnConstraints().add(column0);
+//
+//        ColumnConstraints column1 = new ColumnConstraints(110);
+//        grid.getColumnConstraints().add(column1);
+//
+//        ColumnConstraints column2 = new ColumnConstraints(110);
+//        column0.setMaxWidth(110);
+//        grid.getColumnConstraints().add(column2);
+//
+//        ColumnConstraints column3 = new ColumnConstraints(110);
+//        column0.setMaxWidth(110);
+//        grid.getColumnConstraints().add(column3);
+//
+//        ColumnConstraints column4 = new ColumnConstraints(110);
+//        column0.setMaxWidth(110);
+//        grid.getColumnConstraints().add(column4);
+//
+//        ColumnConstraints column5 = new ColumnConstraints(110);
+//        column0.setMaxWidth(110);
+//        grid.getColumnConstraints().add(column5);
+//
+//        ColumnConstraints column6 = new ColumnConstraints(110);
+//        column0.setMaxWidth(110);
+//        grid.getColumnConstraints().add(column6);
+//
+//        ColumnConstraints column7 = new ColumnConstraints(110);
+//        column0.setMaxWidth(110);
+//        grid.getColumnConstraints().add(column7);
+//
+//
+//        RowConstraints row0 = new RowConstraints(100);
+//        row0.setMaxHeight(100);
+//        row0.setValignment(VPos.BASELINE);
+//        grid.getRowConstraints().add(row0);
 
         Scene scene = new Scene(grid, 1200, 900, Color.BLACK);
 
@@ -97,4 +228,12 @@ public class Checkers extends Application {
 
         primaryStage.show();
     }
+
+    public void addPawns(GridPane grid, Image image) {
+        for (int i = 0; i < 13; i++) {
+            grid.getChildren().add(new ImageView(image));
+        }
+    }
+
+
 }

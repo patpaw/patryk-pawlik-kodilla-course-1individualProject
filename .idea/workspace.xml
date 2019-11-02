@@ -44,6 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -168,7 +169,9 @@
       <workItem from="1572515452896" duration="91000" />
       <workItem from="1572516560565" duration="111000" />
       <workItem from="1572520752613" duration="4039000" />
-      <workItem from="1572547608513" duration="5743000" />
+      <workItem from="1572547608513" duration="7665000" />
+      <workItem from="1572598130902" duration="3138000" />
+      <workItem from="1572686288876" duration="4608000" />
     </task>
     <servers />
   </component>
