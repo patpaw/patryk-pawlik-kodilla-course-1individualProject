@@ -19,8 +19,8 @@ import java.util.List;
 public class Checkers extends Application {
 
     private Image imageback = new Image("checkersBoard.png");
-    private Image pawnRed = new Image("pawnRed.png");
-    private Image pawnGreen = new Image("pawnGreen.png");
+    private Image pawnRed = new Image("pawnRed.png",90,90,false,false);
+    private Image pawnGreen = new Image("pawnGreen.png",90,90,false,false);
     private FlowPane pawns = new FlowPane(Orientation.HORIZONTAL);
 
     public static void main(String[] args) {
@@ -42,6 +42,7 @@ public class Checkers extends Application {
 //        }
 
 
+        // USTAWIENIE KRATOWNIC + GRAFIKA
         grid.setAlignment(Pos.CENTER_LEFT);
         grid.setPadding(new Insets(22, 12.5, 10.5, 182));
         grid.setHgap(0.5);
@@ -155,10 +156,36 @@ public class Checkers extends Application {
 
 
         grid.getChildren().addAll(imgPawnGreen0, imgPawnGreen1, imgPawnGreen2, imgPawnRed0);
-  //      grid.add(imgPawnGreen0,1,1);
+
+  //    DODAWANIE WIDOCZNYCH PIONKÓW DLA WYBRANEJ POZYCJI X Y
+        grid.add(new ImageView(pawnGreen),0,6);
+        grid.add(new ImageView(pawnGreen),1,5);
+        grid.add(new ImageView(pawnGreen),1,7);
+        grid.add(new ImageView(pawnGreen),2,6);
+        grid.add(new ImageView(pawnGreen),3,5);
+        grid.add(new ImageView(pawnGreen),3,7);
+        grid.add(new ImageView(pawnGreen),4,6);
+        grid.add(new ImageView(pawnGreen),5,5);
+        grid.add(new ImageView(pawnGreen),5,7);
+        grid.add(new ImageView(pawnGreen),6,6);
+        grid.add(new ImageView(pawnGreen),7,5);
+        grid.add(new ImageView(pawnGreen),7,7);
+
+        grid.add(new ImageView(pawnRed),0,0);
+        grid.add(new ImageView(pawnRed),0,2);
+        grid.add(new ImageView(pawnRed),1,1);
+        grid.add(new ImageView(pawnRed),2,0);
+        grid.add(new ImageView(pawnRed),2,2);
+        grid.add(new ImageView(pawnRed),3,1);
+        grid.add(new ImageView(pawnRed),4,0);
+        grid.add(new ImageView(pawnRed),4,2);
+        grid.add(new ImageView(pawnRed),5,1);
+        grid.add(new ImageView(pawnRed),6,0);
+        grid.add(new ImageView(pawnRed),6,2);
+        grid.add(new ImageView(pawnRed),7,1);
 
 
-        grid.setGridLinesVisible(true);
+        grid.setGridLinesVisible(true);  //WIDOCZNOŚĆ SIATKI
 
         grid.getColumnConstraints().add(new ColumnConstraints(104));
         grid.getColumnConstraints().add(new ColumnConstraints(104));
