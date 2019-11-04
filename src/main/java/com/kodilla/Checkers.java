@@ -105,34 +105,34 @@ public class Checkers extends Application {
   //      grid.getChildren().addAll(imgPawnGreen0, imgPawnGreen1, imgPawnGreen2, imgPawnRed0,);
 
 
-        for(int i = -1; i < 7;) {
-            i += 2;
+        for(int i = 1; i < 8;) {
             grid.add(new ImageView(pawnGreen),i,0);
+            i += 2;
         }
 
-        for(int i = -2; i < 6;) {
-            i += 2;
+        for(int i = 0; i < 8;) {
             grid.add(new ImageView(pawnGreen),i,1);
-        }
-
-        for(int i = -1; i < 7;) {
             i += 2;
+        }
+
+        for(int i = 1; i < 8;) {
             grid.add(new ImageView(pawnGreen),i,2);
+            i += 2;
         }
 
-        for(int i = -1; i < 7; i++) {
-            i += 1;
+        for(int i = 0; i < 8;) {
             grid.add(new ImageView(pawnRed),i,5);
+            i += 2;
         }
 
-        for(int i = 0; i < 8; i++) {
-            i += 1;
+        for(int i = 1; i < 8;) {
             grid.add(new ImageView(pawnRed),i,6);
+            i += 2;
         }
 
-        for(int i = -1; i < 7; i++) {
-            i += 1;
+        for(int i = 0; i < 8;) {
             grid.add(new ImageView(pawnRed),i,7);
+            i += 2;
         }
 
 

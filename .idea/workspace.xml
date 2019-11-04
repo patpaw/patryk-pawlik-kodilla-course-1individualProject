@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kodilla/Checkers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kodilla/Checkers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/Checkers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/Checkers.java" afterDir="false" />
     </list>
@@ -174,7 +173,7 @@
       <workItem from="1572686288876" duration="8510000" />
       <workItem from="1572769656543" duration="3059000" />
       <workItem from="1572851921104" duration="40000" />
-      <workItem from="1572852947459" duration="781000" />
+      <workItem from="1572852947459" duration="1046000" />
     </task>
     <servers />
   </component>
