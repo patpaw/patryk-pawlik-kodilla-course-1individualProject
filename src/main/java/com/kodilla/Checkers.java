@@ -14,8 +14,7 @@ import javafx.stage.Stage;
 public class Checkers extends Application {
 
     private Image imageback = new Image("checkersBoard.png");
-    private Image pawnRed = new Image("pawnRed.png",90,90,false,false);
-    private Image pawnGreen = new Image("pawnGreen.png",90,90,false,false);
+
 
     public static void main(String[] args) {
         launch(args);
@@ -72,68 +71,41 @@ public class Checkers extends Application {
 //        ImageView imgPawnRed9 = new ImageView(pawnRed);
 //        ImageView imgPawnRed10 = new ImageView(pawnRed);
 //        ImageView imgPawnRed11 = new ImageView(pawnRed);
-//
-//
-//        pawns.getChildren().add(imgPawnGreen0);
-//        pawns.getChildren().add(imgPawnGreen1);
-//        pawns.getChildren().add(imgPawnGreen3);
-//        pawns.getChildren().add(imgPawnGreen4);
-//        pawns.getChildren().add(imgPawnGreen5);
-//        pawns.getChildren().add(imgPawnGreen6);
-//        pawns.getChildren().add(imgPawnGreen7);
-//        pawns.getChildren().add(imgPawnGreen8);
-//        pawns.getChildren().add(imgPawnGreen9);
-//        pawns.getChildren().add(imgPawnGreen10);
-//        pawns.getChildren().add(imgPawnGreen11);
-//
-//        pawns.getChildren().add(imgPawnRed0);
-//        pawns.getChildren().add(imgPawnRed1);
-//        pawns.getChildren().add(imgPawnRed2);
-//        pawns.getChildren().add(imgPawnRed3);
-//        pawns.getChildren().add(imgPawnRed4);
-//        pawns.getChildren().add(imgPawnRed5);
-//        pawns.getChildren().add(imgPawnRed6);
-//        pawns.getChildren().add(imgPawnRed7);
-//        pawns.getChildren().add(imgPawnRed8);
-//        pawns.getChildren().add(imgPawnRed9);
-//        pawns.getChildren().add(imgPawnRed10);
-//        pawns.getChildren().add(imgPawnRed11);
-
 
 
 
   //      grid.getChildren().addAll(imgPawnGreen0, imgPawnGreen1, imgPawnGreen2, imgPawnRed0,);
 
 
-        for(int i = 1; i < 8;) {
-            grid.add(new ImageView(pawnGreen),i,0);
-            i += 2;
-        }
-
-        for(int i = 0; i < 8;) {
-            grid.add(new ImageView(pawnGreen),i,1);
-            i += 2;
-        }
-
-        for(int i = 1; i < 8;) {
-            grid.add(new ImageView(pawnGreen),i,2);
-            i += 2;
-        }
-
-        for(int i = 0; i < 8;) {
-            grid.add(new ImageView(pawnRed),i,5);
-            i += 2;
-        }
-
-        for(int i = 1; i < 8;) {
-            grid.add(new ImageView(pawnRed),i,6);
-            i += 2;
-        }
-
-        for(int i = 0; i < 8;) {
-            grid.add(new ImageView(pawnRed),i,7);
-            i += 2;
-        }
+//        for(int i = 1; i < 8;) {
+//            grid.add(new ImageView(pawnGreen),i,0);
+//            i += 2;
+//        }
+//
+//        for(int i = 0; i < 8;) {
+//            grid.add(new ImageView(pawnGreen),i,1);
+//            i += 2;
+//        }
+//
+//        for(int i = 1; i < 8;) {
+//            grid.add(new ImageView(pawnGreen),i,2);
+//            i += 2;
+//        }
+//
+//        for(int i = 0; i < 8;) {
+//            grid.add(new ImageView(pawnRed),i,5);
+//            i += 2;
+//        }
+//
+//        for(int i = 1; i < 8;) {
+//            grid.add(new ImageView(pawnRed),i,6);
+//            i += 2;
+//        }
+//
+//        for(int i = 0; i < 8;) {
+//            grid.add(new ImageView(pawnRed),i,7);
+//            i += 2;
+//        }
 
 
 
